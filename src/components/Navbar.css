@@ -1,0 +1,150 @@
+/* Navbar.css */
+
+/* General Navbar Styling */
+.navbar {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  background-color: #4a473e;
+  padding: 15px 25px;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  color: #210f04;
+}
+
+/* Menu Links */
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Menu Item Hover Effect */
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);  /* Subtle background hover color */
+  color: #ffcc66;  /* Change text color to a soft yellow/orange for good contrast */
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.action-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.action-link:hover {
+  color: #ffcc66; /* Light yellow-orange color for hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.action-button {
+  background-color: #ff6600;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;  /* Remove any border */
+}
+
+.action-button:hover {
+  background-color: #ff8533; /* Lighter shade of orange for hover */
+  text-decoration: none; /* No underline on hover */
+}
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.social-icon {
+  color: #ffffff;
+  background: #4a473e;  /* Match navbar background */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Social Icon Hover Effect */
+.social-icon:hover {
+  background: #3b5998; /* Facebook hover color */
+}
+
+.social-icon:hover:active {
+  background: #2d4373;  /* Darker Facebook hover color */
+}
+
+/* Twitter Hover */
+.social-icon.twitter:hover {
+  background: #1da1f2; /* Twitter hover color */
+}
+
+.social-icon.twitter:hover:active {
+  background: #1a91da;  /* Darker Twitter hover color */
+}
